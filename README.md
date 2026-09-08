@@ -2,7 +2,7 @@
 
 RAG 실행 모드별 구조화 로그를 수집·변환·집계하여 병렬 검색의 평균 지연과 p95를 비교한 성능 분석 프로젝트입니다.
 
-**핵심 결과: 최종 보고서에서 개선 병렬 모드의 평균은 약 3.0%, p95는 약 20.9% 감소.** 원시 로그와 실험 브랜치가 미확보되어, 공개본은 보고서 기반 분석과 표 데이터로 구성합니다.
+**핵심 결과: 최종 보고서에서 개선 병렬 모드의 평균은 약 3.0%, p95는 약 20.9% 감소.** 원시 로그와 실험 브랜치가 미확보되어, 공개본은 보고서 기반 분석·표 데이터와 2026년에 새로 추가한 측정 로그 검증 도구로 구성합니다.
 
 ## Project Overview
 
@@ -68,10 +68,24 @@ flowchart LR
 ```bash
 git clone https://github.com/YIM551/rag-retrieval-benchmark.git
 cd rag-retrieval-benchmark
+git switch fix/interview-feedback
 python scripts/summarize_reported_results.py
 ```
 
 Python 3 표준 라이브러리만으로 표의 상대 차이를 계산합니다. 이 스크립트는 **2026년 포트폴리오 정리 때 추가한 전사 검산 도구**이며 당시 실험 코드의 복구본이 아닙니다. 실제 벤치마크 재실행에는 원본 브랜치, 환경 설정, 문서 색인, 질의 세트, 원시 로그가 필요합니다.
+
+## 측정 기준과 재검증 도구
+
+16.7초 → 13.2초는 **서버 전체 처리시간 p95**이며 평균·TPS·순수 네트워크 시간과 다릅니다. 모드별 **30회 요청**이라는 보고서 기준을 사용합니다. 과거 원시 로그가 없으므로 30분 실험, 25개 질의, 동시 사용자 25명 등의 조건은 확인되지 않았습니다.
+
+새 [측정 계약](docs/measurement-contract.md)과 `scripts/analyze_timings.py`는 실제 모드·설정·색인·캐시·측정 구간 혼입 및 중복 요청을 거절합니다. 워밍업을 분리하고 성공 지연과 오류/타임아웃 비율을 함께 출력합니다. 서버 구현이나 과거 실험을 복원한 도구는 아닙니다.
+
+```bash
+python scripts/analyze_timings.py tests/fixtures/synthetic-timings.jsonl --expected-mode SEQUENTIAL
+python -m unittest discover -s tests -v
+```
+
+Python 3.10 이상 표준 라이브러리만 사용합니다. fixture는 **합성 입력**이며 실측 성능이 아닙니다. 원시 요청 로그·관측 시간·부하 조건이 없어 처리량은 `null`(측정되지 않음)로 출력합니다. 새 도구의 백분위 정의와 과거 보고서의 정의가 같다는 보장은 없습니다.
 
 ## Project Structure
 
@@ -89,7 +103,7 @@ Python 3 표준 라이브러리만으로 표의 상대 차이를 계산합니다
 
 ## Future Work
 
-원시 로그 및 브랜치 확보, 모드/설정/질의 ID를 포함한 데이터 계약, 실패 요청 처리·반복 실험·신뢰구간, 검색 품질과 지연의 공동 평가를 우선합니다.
+원시 로그 및 브랜치 확보, 새 데이터 계약의 실제 서버 계측 연결, 반복 실험·신뢰구간, 검색 품질과 지연의 공동 평가를 우선합니다.
 
 ## References
 
