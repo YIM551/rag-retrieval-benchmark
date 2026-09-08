@@ -1,0 +1,38 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*credentials*.json
+# Dependencies and generated files
+.venv/
+venv/
+node_modules/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.gradle/
+build/
+dist/
+target/
+.idea/
+.vscode/
+.DS_Store
+desktop.ini
+*.log
+*.bak
+*.backup
+# Unreviewed source material and downloaded data
+private_audit/
+data/raw/
+models/
+checkpoints/
+*.safetensors
+*.pt
+*.pth
+*.h5
+*.pdf
+*.pptx
+*.hwpx
+*.zip
