@@ -1,0 +1,386 @@
+[
+  {
+    "path": "legacy/analyze_rag_logs_spark.py",
+    "origin": {
+      "repository": "sleepBE",
+      "commit": "317a9289df3556916bc2fa88ed8d7d200ef31b4c",
+      "path": "analyze_rag_logs_spark.py"
+    },
+    "sha256": "9229d9da15df21d3af6645e1bc60cefd1532e40d770c8697bdb4d91fe72c79bc",
+    "bytes": 5285,
+    "transformation": "byte-preserving copy"
+  },
+  {
+    "path": "legacy/benchmark_rag_granularity.ps1",
+    "origin": {
+      "repository": "sleepBE",
+      "commit": "317a9289df3556916bc2fa88ed8d7d200ef31b4c",
+      "path": "benchmark_rag_granularity.ps1"
+    },
+    "sha256": "e63a61439b99790316af1c682fa36b94f4552eac93dbeac08417225822f45d23",
+    "bytes": 5113,
+    "transformation": "byte-preserving copy"
+  },
+  {
+    "path": "legacy/benchmark_rag_modes_concurrency.ps1",
+    "origin": {
+      "repository": "sleepBE",
+      "commit": "317a9289df3556916bc2fa88ed8d7d200ef31b4c",
+      "path": "benchmark_rag_modes_concurrency.ps1"
+    },
+    "sha256": "9e9265c76af901f93eaaf4243d43b69c5fa0ec0759aa880748c669a9be0e3702",
+    "bytes": 5331,
+    "transformation": "byte-preserving copy"
+  },
+  {
+    "path": "legacy/benchmark_rag_thread_scaling.ps1",
+    "origin": {
+      "repository": "sleepBE",
+      "commit": "317a9289df3556916bc2fa88ed8d7d200ef31b4c",
+      "path": "benchmark_rag_thread_scaling.ps1"
+    },
+    "sha256": "dee24cdcc8287e3c14a3c893ef3d13eec691332d52b1975ed99b732ec9ffb346",
+    "bytes": 5274,
+    "transformation": "byte-preserving copy"
+  },
+  {
+    "path": "legacy/sleepwell-backend/analyze_rag_benchmarks.py",
+    "origin": {
+      "repository": "sleepBE",
+      "commit": "317a9289df3556916bc2fa88ed8d7d200ef31b4c",
+      "path": "sleepwell-backend/analyze_rag_benchmarks.py"
+    },
+    "sha256": "0617b75749cbbdf4bae9336032aad790daa826cab3ad7d57524d1fc7083aa541",
+    "bytes": 6961,
+    "transformation": "byte-preserving copy"
+  },
+  {
+    "path": "legacy/sleepwell-backend/analyze_rag_logs_spark.py",
+    "origin": {
+      "repository": "sleepBE",
+      "commit": "317a9289df3556916bc2fa88ed8d7d200ef31b4c",
+      "path": "sleepwell-backend/analyze_rag_logs_spark.py"
+    },
+    "sha256": "a78f893a85b71092ba53645eb989e5c9cadac45f489396e113a0b2b5cd525ebe",
+    "bytes": 2123,
+    "transformation": "byte-preserving copy"
+  },
+  {
+    "path": "legacy/sleepwell-backend/analyze_rag_timing.py",
+    "origin": {
+      "repository": "sleepBE",
+      "commit": "317a9289df3556916bc2fa88ed8d7d200ef31b4c",
+      "path": "sleepwell-backend/analyze_rag_timing.py"
+    },
+    "sha256": "7833c88235b93c9420ac9765beb9f8ea67eb59d12e2446a093d8565bede34b41",
+    "bytes": 2327,
+    "transformation": "byte-preserving copy"
+  },
+  {
+    "path": "legacy/sleepwell-backend/analyze_rag_timing_and_plot.py",
+    "origin": {
+      "repository": "sleepBE",
+      "commit": "317a9289df3556916bc2fa88ed8d7d200ef31b4c",
+      "path": "sleepwell-backend/analyze_rag_timing_and_plot.py"
+    },
+    "sha256": "8a8f3cb9bad0718a4c448a99cccc5d8885b1c70df54f77482343f77d65593a85",
+    "bytes": 2418,
+    "transformation": "byte-preserving copy"
+  },
+  {
+    "path": "legacy/sleepwell-backend/benchmarks/20251202-seq-par/analyze_rag_benchmarks.py",
+    "origin": {
+      "repository": "sleepBE",
+      "commit": "317a9289df3556916bc2fa88ed8d7d200ef31b4c",
+      "path": "sleepwell-backend/benchmarks/20251202-seq-par/analyze_rag_benchmarks.py"
+    },
+    "sha256": "b6e388c3c258c6a98752a0600edc9b40fa9021e3de8c95a0380cda9f17703106",
+    "bytes": 2688,
+    "transformation": "byte-preserving copy"
+  },
+  {
+    "path": "legacy/sleepwell-backend/benchmarks/20251202-seq-par/rag_benchmark_comparison_by_query.csv",
+    "origin": {
+      "repository": "sleepBE",
+      "commit": "317a9289df3556916bc2fa88ed8d7d200ef31b4c",
+      "path": "sleepwell-backend/benchmarks/20251202-seq-par/rag_benchmark_comparison_by_query.csv"
+    },
+    "sha256": "5d95a22926f015672c7f65a02a68296ea000b96c1121f402f557300fbee9796f",
+    "bytes": 542,
+    "transformation": "byte-preserving copy"
+  },
+  {
+    "path": "legacy/sleepwell-backend/benchmarks/20251202-seq-par/rag_benchmark_parallel.csv",
+    "origin": {
+      "repository": "sleepBE",
+      "commit": "317a9289df3556916bc2fa88ed8d7d200ef31b4c",
+      "path": "sleepwell-backend/benchmarks/20251202-seq-par/rag_benchmark_parallel.csv"
+    },
+    "sha256": "4d3128e9dfde72f2375b7a3a456cfc07112ca27d134b6a26fbb05e527a676f73",
+    "bytes": 3058,
+    "transformation": "byte-preserving copy"
+  },
+  {
+    "path": "legacy/sleepwell-backend/benchmarks/20251202-seq-par/rag_benchmark_sequential.csv",
+    "origin": {
+      "repository": "sleepBE",
+      "commit": "317a9289df3556916bc2fa88ed8d7d200ef31b4c",
+      "path": "sleepwell-backend/benchmarks/20251202-seq-par/rag_benchmark_sequential.csv"
+    },
+    "sha256": "8e2b4cc8b0d5b9143b766c4b7b4d8ca2fb50d73fcbe2e55ab3df65d267c33f4e",
+    "bytes": 3119,
+    "transformation": "byte-preserving copy"
+  },
+  {
+    "path": "legacy/sleepwell-backend/benchmarks/20251202-seq-par/rag_benchmark_summary.txt",
+    "origin": {
+      "repository": "sleepBE",
+      "commit": "317a9289df3556916bc2fa88ed8d7d200ef31b4c",
+      "path": "sleepwell-backend/benchmarks/20251202-seq-par/rag_benchmark_summary.txt"
+    },
+    "sha256": "0415b94d44f813d2cbf72b15478182ce3d3fea6871a5e3f44202907f798a5545",
+    "bytes": 113,
+    "transformation": "byte-preserving copy"
+  },
+  {
+    "path": "legacy/sleepwell-backend/rag_benchmark_parallel.csv",
+    "origin": {
+      "repository": "sleepBE",
+      "commit": "317a9289df3556916bc2fa88ed8d7d200ef31b4c",
+      "path": "sleepwell-backend/rag_benchmark_parallel.csv"
+    },
+    "sha256": "4d3128e9dfde72f2375b7a3a456cfc07112ca27d134b6a26fbb05e527a676f73",
+    "bytes": 3058,
+    "transformation": "byte-preserving copy"
+  },
+  {
+    "path": "legacy/sleepwell-backend/rag_benchmark_sequential.csv",
+    "origin": {
+      "repository": "sleepBE",
+      "commit": "317a9289df3556916bc2fa88ed8d7d200ef31b4c",
+      "path": "sleepwell-backend/rag_benchmark_sequential.csv"
+    },
+    "sha256": "8e2b4cc8b0d5b9143b766c4b7b4d8ca2fb50d73fcbe2e55ab3df65d267c33f4e",
+    "bytes": 3119,
+    "transformation": "byte-preserving copy"
+  },
+  {
+    "path": "legacy/sleepwell-backend/RAG_BENCHMARKING.md",
+    "origin": {
+      "repository": "sleepBE",
+      "commit": "317a9289df3556916bc2fa88ed8d7d200ef31b4c",
+      "path": "sleepwell-backend/RAG_BENCHMARKING.md"
+    },
+    "sha256": "df7d82db2423af4459f14b3ff19de895789988062951a20df27c285f953817d7",
+    "bytes": 2394,
+    "transformation": "byte-preserving copy"
+  },
+  {
+    "path": "legacy/java/config/RagProperties.java",
+    "origin": {
+      "repository": "sleepBE",
+      "commit": "317a9289df3556916bc2fa88ed8d7d200ef31b4c",
+      "path": "sleepwell-backend/src/main/java/com/sleepwell/sleepwell_backend/rag/config/RagProperties.java"
+    },
+    "sha256": "d5f62abf23c0487671f0942ee92f7ef616742339fef65c17c8470f41b7a14a24",
+    "bytes": 987,
+    "transformation": "byte-preserving copy"
+  },
+  {
+    "path": "legacy/java/model/RagExecutionMode.java",
+    "origin": {
+      "repository": "sleepBE",
+      "commit": "317a9289df3556916bc2fa88ed8d7d200ef31b4c",
+      "path": "sleepwell-backend/src/main/java/com/sleepwell/sleepwell_backend/rag/model/RagExecutionMode.java"
+    },
+    "sha256": "acb2df96624da62e2c8a736daae5dbc52f56ea428f98f68fde4a2c188c36fdce",
+    "bytes": 772,
+    "transformation": "byte-preserving copy"
+  },
+  {
+    "path": "legacy/java/model/RagTimingRecord.java",
+    "origin": {
+      "repository": "sleepBE",
+      "commit": "317a9289df3556916bc2fa88ed8d7d200ef31b4c",
+      "path": "sleepwell-backend/src/main/java/com/sleepwell/sleepwell_backend/rag/model/RagTimingRecord.java"
+    },
+    "sha256": "76a70c75692ffd3b7b2aa27ba271a45a23f41996e8b4acee472a8570035923ff",
+    "bytes": 3134,
+    "transformation": "byte-preserving copy"
+  },
+  {
+    "path": "legacy/java/service/RagQueryService.java",
+    "origin": {
+      "repository": "sleepBE",
+      "commit": "317a9289df3556916bc2fa88ed8d7d200ef31b4c",
+      "path": "sleepwell-backend/src/main/java/com/sleepwell/sleepwell_backend/rag/service/RagQueryService.java"
+    },
+    "sha256": "96e243d3ebe9dcb6360e86776d0263d694bd3d888b6ef94ba938993bb702b97a",
+    "bytes": 60499,
+    "transformation": "byte-preserving copy"
+  },
+  {
+    "path": "legacy/sleepwell-backend/tools/benchmark_rag_client.ps1",
+    "origin": {
+      "repository": "sleepBE",
+      "commit": "317a9289df3556916bc2fa88ed8d7d200ef31b4c",
+      "path": "sleepwell-backend/tools/benchmark_rag_client.ps1"
+    },
+    "sha256": "5b1820eddd49d5856083953068523309a10b420a23d314bde1b9349e5a3e5c47",
+    "bytes": 3086,
+    "transformation": "byte-preserving copy"
+  },
+  {
+    "path": "legacy/sleepwell-backend/tools/benchmark_rag_granularity.ps1",
+    "origin": {
+      "repository": "sleepBE",
+      "commit": "317a9289df3556916bc2fa88ed8d7d200ef31b4c",
+      "path": "sleepwell-backend/tools/benchmark_rag_granularity.ps1"
+    },
+    "sha256": "41375922c10d524079a1b92f24f69786bd92e4ae4fbc647564bd3bc5d33186df",
+    "bytes": 4662,
+    "transformation": "byte-preserving copy"
+  },
+  {
+    "path": "legacy/sleepwell-backend/tools/benchmark_rag_modes_concurrency.ps1",
+    "origin": {
+      "repository": "sleepBE",
+      "commit": "317a9289df3556916bc2fa88ed8d7d200ef31b4c",
+      "path": "sleepwell-backend/tools/benchmark_rag_modes_concurrency.ps1"
+    },
+    "sha256": "b6231d413c8db8847b095c326a8150b8457e36583091ce19c7dc2d367743495d",
+    "bytes": 5000,
+    "transformation": "byte-preserving copy"
+  },
+  {
+    "path": "legacy/sleepwell-backend/tools/benchmark_rag_parallel.ps1",
+    "origin": {
+      "repository": "sleepBE",
+      "commit": "317a9289df3556916bc2fa88ed8d7d200ef31b4c",
+      "path": "sleepwell-backend/tools/benchmark_rag_parallel.ps1"
+    },
+    "sha256": "26496a577f9a373bc31b65d9194a6b0530a7d92b12e9ac3f1f9eb56241a7676d",
+    "bytes": 3225,
+    "transformation": "byte-preserving copy"
+  },
+  {
+    "path": "legacy/sleepwell-backend/tools/benchmark_rag_parallel_strategies.ps1",
+    "origin": {
+      "repository": "sleepBE",
+      "commit": "317a9289df3556916bc2fa88ed8d7d200ef31b4c",
+      "path": "sleepwell-backend/tools/benchmark_rag_parallel_strategies.ps1"
+    },
+    "sha256": "3695583d1e19082862bd1235461bfcec5ba9b11429d8524b8f65d5a8c6d042f7",
+    "bytes": 4116,
+    "transformation": "byte-preserving copy"
+  },
+  {
+    "path": "legacy/sleepwell-backend/tools/benchmark_rag_sequential.ps1",
+    "origin": {
+      "repository": "sleepBE",
+      "commit": "317a9289df3556916bc2fa88ed8d7d200ef31b4c",
+      "path": "sleepwell-backend/tools/benchmark_rag_sequential.ps1"
+    },
+    "sha256": "42ec7d338813a6cd03c9ba4c31be5a31c393146ec6aabdf0269d0c84ab461f60",
+    "bytes": 2231,
+    "transformation": "byte-preserving copy"
+  },
+  {
+    "path": "legacy/sleepwell-backend/tools/benchmark_rag_thread_scaling.ps1",
+    "origin": {
+      "repository": "sleepBE",
+      "commit": "317a9289df3556916bc2fa88ed8d7d200ef31b4c",
+      "path": "sleepwell-backend/tools/benchmark_rag_thread_scaling.ps1"
+    },
+    "sha256": "5d9d003ffc49792e3c11978ca4d7ca0db826577f631fb58322ac973a39ebdc88",
+    "bytes": 4819,
+    "transformation": "byte-preserving copy"
+  },
+  {
+    "path": "legacy/sleepwell-backend/tools/extract_rag_timing.ps1",
+    "origin": {
+      "repository": "sleepBE",
+      "commit": "317a9289df3556916bc2fa88ed8d7d200ef31b4c",
+      "path": "sleepwell-backend/tools/extract_rag_timing.ps1"
+    },
+    "sha256": "6922af8ee85bb92ac570248d25cd364f9708ea8015671ab1be1050c7374335a3",
+    "bytes": 5697,
+    "transformation": "byte-preserving copy"
+  },
+  {
+    "path": "legacy/sleepwell-backend/tools/run_rag_with_mode.ps1",
+    "origin": {
+      "repository": "sleepBE",
+      "commit": "317a9289df3556916bc2fa88ed8d7d200ef31b4c",
+      "path": "sleepwell-backend/tools/run_rag_with_mode.ps1"
+    },
+    "sha256": "7f069a45844ddb7680723e4def200cd010bfb776238ac1908820910aabf1ab64",
+    "bytes": 1294,
+    "transformation": "byte-preserving copy"
+  },
+  {
+    "path": "data/recovered/rag_timing_metrics.csv",
+    "origin": {
+      "source_file": "rag_timing_metrics.csv",
+      "recovery": "local backup"
+    },
+    "sha256": "d0a114e36a7cea1e02f0953e5d2be15653a6cfeffb5a516a9a927614de9879ad",
+    "bytes": 12328,
+    "transformation": "byte-preserving copy"
+  },
+  {
+    "path": "data/recovered/timing-events.jsonl",
+    "origin": [
+      {
+        "source_file": "rag_sequential_bootrun.log",
+        "sha256": "4f3a43eb21f28e0f43cd5464d5a17b4a0295bdb888cbc70bd74ca1d2c0458182",
+        "retained_timing_rows": 30
+      },
+      {
+        "source_file": "rag_parallel_old_bootrun.log",
+        "sha256": "0c28c6cf3e66b74bd433eff751bac671e54b40abc279eee1e078ab2a6748346c",
+        "retained_timing_rows": 30
+      },
+      {
+        "source_file": "rag_async_bootrun.log",
+        "sha256": "47021ea7afe19357c4f03bc347117650d25618ee3908f1f6cc0bce6a00cae3f4",
+        "retained_timing_rows": 30
+      }
+    ],
+    "transformation": "retain only original timing JSON fields; omit log prefix and all other log lines",
+    "sha256": "748f3c5bdc3029e8bf7fb3fd15b71a0876411f79ae5b44fccc06c70f0b663dab",
+    "bytes": 24909
+  },
+  {
+    "path": "assets/historical-console.png",
+    "origin": {
+      "source": "original bigdata project report",
+      "page": 11,
+      "kind": "embedded image extracted unchanged"
+    },
+    "sha256": "84f6cb97feff10a267937836619b537e6013f69fb65fd62b038d11f7d29c7fe1",
+    "bytes": 12942,
+    "transformation": "byte-preserving copy"
+  },
+  {
+    "path": "assets/historical-mean-latency.jpg",
+    "origin": {
+      "source": "original bigdata project report",
+      "page": 11,
+      "kind": "embedded image extracted unchanged"
+    },
+    "sha256": "5869937d72310adbdf104557abd5f35c7ea181baf69d0ee9e5c7f9c4efa8a38c",
+    "bytes": 62117,
+    "transformation": "byte-preserving copy"
+  },
+  {
+    "path": "docs/historical-report-anonymized.pdf",
+    "origin": {
+      "document": "original big-data project report, 23 pages, 2025-12-10",
+      "pages": "2–23"
+    },
+    "sha256": "707a3a0593b8c63cee2d3a77da17dd2c8541e99380334ae6c54730966ae445f8",
+    "bytes": 714804,
+    "transformation": "Cover page containing identity removed; metadata anonymized; 22 retained pages render pixel-identically to source at 900px verification resolution."
+  }
+]
