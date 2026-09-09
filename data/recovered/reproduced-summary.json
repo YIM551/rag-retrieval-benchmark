@@ -1,0 +1,169 @@
+{
+  "scope": "reaggregation_of_historical_server_timings",
+  "percentile_method": "linear_interpolation_at_(n-1)*q",
+  "records": 90,
+  "modes": {
+    "PARALLEL_OLD": {
+      "n": 30,
+      "configuration": {
+        "strategy": "V1_OLD",
+        "threadPoolSize": 1,
+        "parallelGranularity": "FINE",
+        "nestedDenseSparse": true
+      },
+      "timings": {
+        "totalMs": {
+          "mean_ms": 12425.833333333334,
+          "p95_ms": 22273.599999999984
+        },
+        "queryExpansionMs": {
+          "mean_ms": 2576.766666666667,
+          "p95_ms": 8117.599999999976
+        },
+        "retrievalMs": {
+          "mean_ms": 5851.933333333333,
+          "p95_ms": 13905.399999999998
+        },
+        "denseMs": {
+          "mean_ms": 2302.133333333333,
+          "p95_ms": 11647.0
+        },
+        "sparseMs": {
+          "mean_ms": 8.6,
+          "p95_ms": 24.949999999999974
+        },
+        "mergeMs": {
+          "mean_ms": 3481,
+          "p95_ms": 6450.449999999999
+        },
+        "rerankMs": {
+          "mean_ms": 1.4666666666666666,
+          "p95_ms": 2.0
+        },
+        "contextMs": {
+          "mean_ms": 0.03333333333333333,
+          "p95_ms": 0.0
+        },
+        "llmMs": {
+          "mean_ms": 3995.9666666666667,
+          "p95_ms": 6377.4
+        },
+        "guardrailMs": {
+          "mean_ms": 0,
+          "p95_ms": 0.0
+        }
+      }
+    },
+    "PARALLEL_SYNC": {
+      "n": 30,
+      "configuration": {
+        "strategy": "ASYNC",
+        "threadPoolSize": 1,
+        "parallelGranularity": "FINE",
+        "nestedDenseSparse": true
+      },
+      "timings": {
+        "totalMs": {
+          "mean_ms": 10402.766666666666,
+          "p95_ms": 13230.6
+        },
+        "queryExpansionMs": {
+          "mean_ms": 1847.9666666666667,
+          "p95_ms": 2639.6
+        },
+        "retrievalMs": {
+          "mean_ms": 4999.8,
+          "p95_ms": 7698.999999999999
+        },
+        "denseMs": {
+          "mean_ms": 1527.1333333333334,
+          "p95_ms": 1968.7499999999993
+        },
+        "sparseMs": {
+          "mean_ms": 9.066666666666666,
+          "p95_ms": 21.549999999999997
+        },
+        "mergeMs": {
+          "mean_ms": 3401.5666666666666,
+          "p95_ms": 5914.7
+        },
+        "rerankMs": {
+          "mean_ms": 1.2333333333333334,
+          "p95_ms": 2.0
+        },
+        "contextMs": {
+          "mean_ms": 0.03333333333333333,
+          "p95_ms": 0.0
+        },
+        "llmMs": {
+          "mean_ms": 3553.9333333333334,
+          "p95_ms": 5058.2
+        },
+        "guardrailMs": {
+          "mean_ms": 0,
+          "p95_ms": 0.0
+        }
+      }
+    },
+    "SEQUENTIAL": {
+      "n": 30,
+      "configuration": {
+        "strategy": "SEQUENTIAL",
+        "threadPoolSize": 1,
+        "parallelGranularity": "FINE",
+        "nestedDenseSparse": true
+      },
+      "timings": {
+        "totalMs": {
+          "mean_ms": 10722.833333333334,
+          "p95_ms": 16725.099999999988
+        },
+        "queryExpansionMs": {
+          "mean_ms": 1860.5666666666666,
+          "p95_ms": 2708.099999999999
+        },
+        "retrievalMs": {
+          "mean_ms": 5832.3,
+          "p95_ms": 10929.649999999985
+        },
+        "denseMs": {
+          "mean_ms": 2257.733333333333,
+          "p95_ms": 7901.699999999977
+        },
+        "sparseMs": {
+          "mean_ms": 9.666666666666666,
+          "p95_ms": 23.949999999999974
+        },
+        "mergeMs": {
+          "mean_ms": 3502.633333333333,
+          "p95_ms": 5976.7
+        },
+        "rerankMs": {
+          "mean_ms": 1.1666666666666667,
+          "p95_ms": 2.0
+        },
+        "contextMs": {
+          "mean_ms": 0.03333333333333333,
+          "p95_ms": 0.0
+        },
+        "llmMs": {
+          "mean_ms": 3028.766666666667,
+          "p95_ms": 4185.999999999999
+        },
+        "guardrailMs": {
+          "mean_ms": 0,
+          "p95_ms": 0.0
+        }
+      }
+    }
+  },
+  "error_rate": null,
+  "throughput_rps": null,
+  "concurrent_users": null,
+  "warmup_excluded": null,
+  "limitations": [
+    "No outcome/request identifiers in source timing records",
+    "Warm-up and cache state cannot be recovered from these fields",
+    "Task durations can overlap; use retrievalMs as measured wall-clock span"
+  ]
+}

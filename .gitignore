@@ -36,3 +36,6 @@ checkpoints/
 *.pptx
 *.hwpx
 *.zip
+
+output/
+!docs/historical-report-anonymized.pdf

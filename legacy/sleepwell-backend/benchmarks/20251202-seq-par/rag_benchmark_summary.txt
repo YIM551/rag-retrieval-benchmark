@@ -1,0 +1,4 @@
+SEQUENTIAL mean latency: 15772.4 ms
+PARALLEL   mean latency: 12073.3 ms
+Speedup: x1.306
+Improvement: 23.5% faster

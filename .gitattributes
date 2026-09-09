@@ -1,0 +1,3 @@
+* text=auto eol=lf
+legacy/** -text whitespace=cr-at-eol
+data/recovered/** -text whitespace=cr-at-eol

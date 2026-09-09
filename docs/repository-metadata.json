@@ -1,13 +1,15 @@
 {
   "name": "rag-retrieval-benchmark",
   "owner": "YIM551",
-  "description": "RAG retrieval latency study comparing sequential and parallel execution through a structured timing-log analysis pipeline.",
+  "description": "RAG timing-log pipeline with recovered measurements, reproducible latency analysis, and sequential/parallel retrieval evidence.",
   "topics": [
     "data-engineering",
     "rag",
     "benchmark",
     "latency",
     "observability",
-    "parallel-processing"
+    "parallel-processing",
+    "pandas",
+    "pyspark"
   ]
 }
